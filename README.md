@@ -16,10 +16,6 @@
 </p>
 
 <div align="center">
-  <img src="docs/images/hero.jpg" alt="Quantitative Trading" width="800"/>
-</div>
-
-<div align="center">
   <h3>🚀 A high-performance quantitative trading framework built in Rust</h3>
   <p>Develop, backtest, and optimize trading strategies with blazing speed and type safety</p>
 </div>
