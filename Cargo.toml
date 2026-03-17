@@ -1,0 +1,43 @@
+[workspace]
+members = [
+    "crates/core",
+    "crates/data",
+    "crates/indicators",
+    "crates/utils",
+]
+resolver = "2"
+
+[workspace.dependencies]
+polars = "0.34.2"
+reqwest = { version = "0.11", features = ["json", "blocking"] }
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+plotters = "0.3.5"
+statrs = "0.17.0"
+nalgebra = "0.32.3"
+log = "0.4.20"
+env_logger = "0.10.0"
+anyhow = "1.0.75"
+
+# Local Crates
+rqt-core = { path = "crates/core" }
+rqt-data = { path = "crates/data" }
+rqt-indicators = { path = "crates/indicators" }
+rqt-utils = { path = "crates/utils" }
+
+# Root package for running examples
+[package]
+name = "rust-quantitative-trading"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gabriel Demetrios Lafis"]
+
+[dependencies]
+tokio = { workspace = true }
+anyhow = { workspace = true }
+rqt-core = { workspace = true }
+rqt-data = { workspace = true }
+rqt-indicators = { workspace = true }
+rqt-utils = { workspace = true }
+polars = { workspace = true, features = ["lazy"] }
