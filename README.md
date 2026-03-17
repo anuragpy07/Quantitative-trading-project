@@ -1,23 +1,16 @@
 <p align="center">
   <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=50&pause=1000&color=39FF14&center=true&vCenter=true&width=1000&height=70&lines=📊+Quantitative+Trading+Framework" 
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FF4B11&center=true&vCenter=true&width=1000&height=70&lines=📊+Rust+Quantitative+Trading+Framework" 
   />
   <br/>
   <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=00F3FF&center=true&vCenter=true&width=1000&lines=High-Frequency+Backtesting+Engine;Real-time+Alpha+Generation;Ultra-Low+Latency+Execution;Vectorized+Strategy+Optimization" 
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=E2E8F0&center=true&vCenter=true&width=1000&lines=Memory-Safe+High-Frequency+Backtesting;Real-time+Alpha+Generation;Ultra-Low+Latency+Execution;Zero-Cost+Abstractions+for+FinTech" 
   />
-</p>
-
-<p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Python-3.11+-3776AB?style=flat&logo=python&logoColor=white" alt="Python" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Latency-<1ms-brightgreen?style=flat&logo=speedtest&logoColor=white" alt="Latency" /></a>
-  <a href="#"><img src="https://img.shields.io/badge/Market-Live_Scanning-blue?style=flat&logo=databricks&logoColor=white" alt="Market" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat" alt="License" /></a>
 </p>
 
 ---
 
-### ⚡ High-Performance Strategy Research & Execution
+### ⚡Quantitative Trading Framework
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge\&logo=rust\&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
