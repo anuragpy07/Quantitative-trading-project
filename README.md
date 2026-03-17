@@ -1,6 +1,6 @@
 <p align="center">
   <img 
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FF4B11&center=true&vCenter=true&width=1000&height=70&lines=📊+Quantitative+Trading+Framework" 
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=50&pause=1000&color=FF4B11&center=true&vCenter=true&width=1000&height=70&lines=📊+Rust+Quantitative+Trading+Framework" 
   />
   <br/>
   <img 
@@ -8,10 +8,12 @@
   />
 </p>
 
-![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge\&logo=rust\&logoColor=white)
-![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
-![Polars](https://img.shields.io/badge/polars-data-orange.svg?style=for-the-badge)
-![Build](https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge)
+<p align="center">
+  <img src="https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white" />
+  <img src="https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/polars-data-orange.svg?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/build-passing-brightgreen.svg?style=for-the-badge" />
+</p>
 
 <div align="center">
   <img src="docs/images/hero.jpg" alt="Quantitative Trading" width="800"/>
