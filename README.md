@@ -1,4 +1,11 @@
-# 📊 Quantitative Trading Framework
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=35&pause=1000&color=39FF14&center=true&vCenter=true&width=600&lines=📊+Quantitative+Trading+Framework;⚡+Backtesting+Engine+v2.0;📈+Real-time+Alpha+Generation" alt="Typing SVG" />
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Status-Live_Market_Scanning-brightgreen?style=for-the-badge&logo=statuspage" />
+  <img src="https://img.shields.io/badge/Latency-1.2ms-blue?style=for-the-badge&logo=speedtest" />
+</p>
 
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge\&logo=rust\&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)
