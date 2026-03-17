@@ -123,6 +123,10 @@ fn main() {
 
 The project follows a modular workspace structure with clear separation of concerns:
 
+<div align="center">
+  <img src="docs/architecture.png" alt="Architecture Diagram" width="700"/>
+</div>
+
 ```mermaid
 flowchart LR
     A[Data Feed\nCSV / Market API] --> B[Quantitative Analysis\nSMA / EMA / RSI]
@@ -130,6 +134,14 @@ flowchart LR
     C --> D[Signal Generation\nBuy / Sell / Hold]
     D --> E[Execution\nBacktest Engine]
     E --> F[P&L\nEquity Curve / Metrics]
+
+    style A fill:#1a1a2e,stroke:#e94560,color:#fff
+    style B fill:#16213e,stroke:#0f3460,color:#fff
+    style C fill:#0f3460,stroke:#533483,color:#fff
+    style D fill:#533483,stroke:#e94560,color:#fff
+    style E fill:#16213e,stroke:#e94560,color:#fff
+    style F fill:#1a1a2e,stroke:#e94560,color:#fff
+
 ```
 
 ### Project Structure
