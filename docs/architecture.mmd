@@ -1,0 +1,38 @@
+graph TB
+    subgraph "Data Layer"
+        CSV[CSV Files]
+        API[Market APIs]
+    end
+    
+    subgraph "Processing Layer"
+        Data[rqt-data<br/>Data Loading]
+        Indicators[rqt-indicators<br/>Technical Indicators]
+    end
+    
+    subgraph "Core Layer"
+        Strategy[Strategy Trait]
+        Backtest[Backtest Engine]
+        Portfolio[Portfolio Manager]
+    end
+    
+    subgraph "Output"
+        Results[Backtest Results]
+        Metrics[Performance Metrics]
+    end
+    
+    CSV --> Data
+    API --> Data
+    Data --> Indicators
+    Indicators --> Strategy
+    Strategy --> Backtest
+    Backtest --> Portfolio
+    Portfolio --> Results
+    Portfolio --> Metrics
+    
+    style Data fill:#e1f5ff
+    style Indicators fill:#e1f5ff
+    style Strategy fill:#fff4e1
+    style Backtest fill:#fff4e1
+    style Portfolio fill:#fff4e1
+    style Results fill:#e8f5e9
+    style Metrics fill:#e8f5e9
