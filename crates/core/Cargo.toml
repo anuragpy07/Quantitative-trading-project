@@ -1,0 +1,15 @@
+[package]
+name = "rqt-core"
+version = "0.1.0"
+edition = "2021"
+authors = ["Gabriel Demetrios Lafis"]
+
+[dependencies]
+polars = { workspace = true }
+log = { workspace = true }
+serde = { workspace = true }
+
+rqt-data = { path = "../data" }
+rqt-indicators = { path = "../indicators" }
+rqt-utils = { path = "../utils" }
+
