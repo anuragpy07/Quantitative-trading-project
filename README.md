@@ -24,7 +24,7 @@
 
 ## 📝 Description
 
-`quantitative-trading-rust` is a comprehensive open-source framework for developing quantitative trading strategies. Built in Rust, it offers **high performance**, **type safety**, and **modular architecture** for market analysis, technical indicator calculation, and strategy backtesting.
+`Quantitative-trading` is a robust open-source framework for building quantitative trading strategies. Developed in Rust, it delivers **high performance**, **strong type safety**, and a **modular architecture** for efficient market analysis, technical indicator computation, and strategy backtesting.
 
 ### ✨ Key Features
 
